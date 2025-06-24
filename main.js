@@ -87,3 +87,28 @@ console.log(x.trimStart());
 console.log(y.charAt(1));
 console.log(y.charCodeAt(1));
 console.log(String.fromCharCode(5));
+
+
+
+console.log("GET METHOD")
+
+let date = new Date("2003-05-16");  
+
+console.log(date);
+console.log(date.getFullYear());
+console.log(date.getTime());
+console.log(date.getMonth());
+console.log(date.getDate());
+console.log(date.getHours());
+console.log(date.getMinutes());
+console.log(date.getSeconds());
+console.log(date.getMilliseconds());
+console.log(date.toLocaleDateString());
+console.log(date.toLocaleTimeString());
+console.log(date.toDateString());
+
+console.log("SET DATE");
+
+date.setFullYear(2024);
+console.log(date.getFullYear());
+console.log(date.getDay());
